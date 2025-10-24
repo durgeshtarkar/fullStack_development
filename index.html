@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+        <legend>employee details</legend>    
+        <div>
+        <label for="fname">first name:</label>
+        <input type="text" id="fname" name="fname">
+        
+        <label for="lname">last name:</label>
+        <input type="text" id="lname" name="lname">
+        </div>qa
+        
+        <p>choose your favourite language:</p>
+        <label for="fsite">html</label>
+        <input type="radio" id="fsite" name="favourite" value="html">
+        <label for="f1site">css</label>
+        <input type="radio" id="f1site"  name="favourite" value="css">
+        <label for="f2site">javascript</label>
+        <input type="radio" id="f2site"  name="favourite" value="javascript"><br>
+        </div>
+
+        <div>
+            <p>choose which vehicle do you have :</p>
+        <label for="vehicle1">i have a bike</label>
+        <input type="checkbox" id="vehicle1" name="vehicle1">
+        <label for="vehicle2">i have a car</label>
+        <input type="checkbox" id="vehicle2" name="vehicle2">
+        <label for="vehicle3">i have a boat</label>
+        <input type="checkbox" id="vehicle3" name="vehicle3">
+        </div>
+        <br>
+        <div>
+         <div>
+            <label for="dream destination"> select dream destination:</label>
+
+            <select id="dream destination" name="dream destination" >
+            <!-- <select id="dream destination" name="dream destination" size="3" >size is used to define visible values     -->
+            <!-- <select id="dream destination" name="dream destination" size="3" multiple><!-- multiple is used to select multiple values -->     -->
+                <option value="india" selected>india</option> <!--to define preselected -->
+                <option value="japan">japan</option>
+                <option value="paris">paris</option>
+                <option value="indonesia">indonesia</option>
+                <option value="germany">germany</option>
+                <option value="india">india</option>
+
+            </select>
+         </div><br>  
+         <div>
+            <lable for="feedback">feedback:</lable><br>
+            <textarea name="feedback" rows="5"   cols="7">
+
+            </textarea>
+        </div> 
+        <div>
+            <button type="button" onclick="alert('hello worlds!')">click me!</button>
+        </div>
+        <br>
+        <div>
+        <input type="submit"></div>
+        
+
+
+
+
+        </fieldset>
+    </form>
+</body>
+</html>
